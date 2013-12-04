@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+    
+        <ImageView
+        android:id="@+id/bgPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/black_bg"
+        android:alpha="0.5" />
+        
+        <LinearLayout     android:id="@+id/queryLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+    
+       <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="#FFFFFF"
+        android:text="@string/hello_world"  />
+    
+       <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="#FFFFFF"
+        android:text="@string/hello_world"  />
+       
+</LinearLayout>
+
+                <LinearLayout 
+    android:id="@+id/resultLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+    
+       <TextView
+        android:id="@+id/titleOfWork"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:text="@string/hello_world"  />
+    
+       <TextView
+        android:id="@+id/Singer"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+                android:textStyle="bold"
+        android:text="@string/hello_world"  />
+       
+</LinearLayout>
+
+       <ProgressBar
+        android:id="@+id/my_progressBar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" 
+        style="?android:attr/progressBarStyleHorizontal" 
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+    />
+       
+                     <TextView
+        android:id="@+id/tap_instruction"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:text="@string/tapforoptions"  />
+            
+</FrameLayout>
