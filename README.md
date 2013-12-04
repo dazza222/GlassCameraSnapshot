@@ -1,5 +1,4 @@
-Google Glass Camera Snapshot - sample app and utility clas(s
-current as of XE11) 
+Google Glass Camera Snapshot - sample app and utility class (current as of XE11) 
 
 This app provides a utility class, GlassSnapshotActivity, that you can pull into your Glass project if you want to take a snapshot.
 
